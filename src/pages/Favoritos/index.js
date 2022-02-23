@@ -19,6 +19,7 @@ export default function Favoritos() {
   return (
     <div id="meus-filmes">
       <h1>Meus Filmes</h1>
+      {filmes.length === 0 && <span>Você não possui nenhum filme salvo!</span>}
       <ul>
         {filmes.map((item) => {
           return (
