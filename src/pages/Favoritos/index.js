@@ -8,6 +8,7 @@ export default function Favoritos() {
     const minhaLista = localStorage.getItem("filmes");
     setFilmes(JSON.parse(minhaLista) || []);
   }, []);
+  // Função que devolve todos os filmes menos o que eu passei como parâmetro.
   function handleDelete(id) {
     let filtroFilmes = filmes.filter((item) => {
       return item.id !== id;
