@@ -1,14 +1,14 @@
 .filme-info {
   display: flex;
   flex-direction: column;
-  max-width: 900px;
+  align-items: center;
 }
 .filme-info img {
   border-radius: 20px;
+  width: 800px;
 }
 .filme-info button {
-  margin-right: 5px;
-  margin-top: 15px;
+  margin: 15px;
   cursor: pointer;
   border-radius: 5px;
   border: 0;
@@ -28,4 +28,7 @@
 }
 .filme-info a:hover {
   color: #fff;
+}
+.filme-info p {
+  width: 800px;
 }
