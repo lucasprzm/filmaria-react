@@ -6,7 +6,7 @@ Catálogo de filmes, salve o filme nos favoritos e assista ao trailer (link para
 ### `npm start`
 
 Na pasta do projeto, rode o comando npm start.
-O app funcionará no modo de desenvolvimento
+O app funcionará no modo de desenvolvimento.
 Abra [http://localhost:3000](http://localhost:3000) para ver no navegador.
 
 ### Publicado no Netlify
